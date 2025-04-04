@@ -16,7 +16,7 @@ Pratham Kambli: captions, image generation, and geoparser
 Below is a list of the following libraries utilized for our project. For each library we went ahead and provided the purpose of the library and why we used it in our project.
 
 ==GeoTopicParser==  
-The GeoTopicParser code includes a shell script and a Python file. The shell script activates the Tika lucene-geo-gazetter server, and then runs the Python file. The approach used in the Python file involves taking the ‘description’, ‘location’, and ‘state’ columns of the haunted_places TSV file and writing them into a temporary .geot file. This file is then parsed with GeoTopicParser to return a geographic name, longitude, and latitude. If the parser does not return data for those categories, the code falls back to the optional name, longitude, and latitude. These columns are saved and added to the original haunted_places TSV file.
+The GeoTopicParser code includes a shell script and a Python file. The lucene-geo-gazetteer library and command should be set up first. The shell script activates the Tika lucene-geo-gazetter server, and then runs the Python file. The approach used in the Python file involves taking the ‘description’, ‘location’, and ‘state’ columns of the haunted_places TSV file and writing them into a temporary .geot file. This file is then parsed with GeoTopicParser to return a geographic name, longitude, and latitude. If the parser does not return data for those categories, the code falls back to the optional name, longitude, and latitude. These columns are saved and added to the original haunted_places TSV file.
 
 pandas: the library is typically utilized for data analysis and data manipulation. It helps us add the columns to the data frame
 
