@@ -5,4 +5,4 @@
 lucene-geo-gazetter -server
 
 # open new terminal tab and run python file
-python3 get-geotopic.py
+python3 ./get-geotopic.py
