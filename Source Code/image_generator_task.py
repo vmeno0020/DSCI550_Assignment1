@@ -16,7 +16,7 @@ if "image_path" not in df.columns:
     df["image_path"] = ""
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-print(f"🎯 Using device: {device}")
+print(f" Using device: {device}")
 
 torch_dtype = torch.float16 if device == "cuda" else torch.float32
 
@@ -41,7 +41,7 @@ for idx in df_partial.index:
         df.at[idx, "image_path"] = image_path
         continue
 
-    print(f"🧠 Generating image for row {idx}...")
+    print(f" Generating image for row {idx}...")
 
     try:
         image = pipe(prompt, num_inference_steps=15).images[0]
