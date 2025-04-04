@@ -3,12 +3,12 @@
 ==README==
 
 ==Division of Work==
-Alysa Xu: captions, image generation, and geoparser
-Catherine Lu: captions, image generation, and geoparser
-Justin Huh: spacy and image generation
-Rohan Rane: spacy and image generation
-Vishal Menon: captions, image generation, and geoparser
-Pratham Kambli: captions, image generation, and geoparser
+Alysa Xu: captions, image generation, and geoparser  
+Catherine Lu: captions, image generation, and geoparser  
+Justin Huh: spacy and image generation  
+Rohan Rane: spacy and image generation  
+Vishal Menon: captions, image generation, and geoparser  
+Pratham Kambli: captions, image generation, and geoparser  
 
 
 
