@@ -15,7 +15,7 @@ output_file = "haunted_places_v2_with_geotopic.tsv"
 # Tika command configuration
 tika_command = [
     "java", "-classpath",
-    "/home/catxy/tika/tika-app-2.6.0.jar:/home/catxy/tika/tika-parser-nlp-package-2.6.0.jar:/home/catxy/location-ner-model:/home/catxy/geotopic-mime",
+    "./tika/tika-app-2.6.0.jar:./tika/tika-parser-nlp-package-2.6.0.jar:./location-ner-model:./geotopic-mime",
     "org.apache.tika.cli.TikaCLI", "-m"
 ]
 
